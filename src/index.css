@@ -1,3 +1,9 @@
+
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -8,7 +14,12 @@ body {
 
   background: var(--tg-theme-secondary-bg-color, white);
   color: var(--tg-theme-text-color, black);
+  margin: 0;
 }
+#root{
+  width: 100%;
+}
+
 
 blockquote {
   margin: 0;
@@ -22,4 +33,34 @@ blockquote p {
 
 pre {
   overflow: auto;
+}
+figure{
+  margin: 0;
+}
+
+.catalog-page{
+  background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  
+
+}
+.catalog-page .figure-card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  
+}
+.catalog-page .figure-card img{
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+}
+.catalog-page .figure-card figcaption{
+  max-width: 100%;
+  margin: 15px 30px 10px;
+
+  font-size: 15px;
 }

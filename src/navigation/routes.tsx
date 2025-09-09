@@ -1,10 +1,11 @@
-import type { Component } from 'solid-js';
+import type { Component } from "solid-js";
 
-import { IndexPage } from '@/pages/IndexPage/IndexPage.js';
-import { InitDataPage } from '@/pages/InitDataPage/InitDataPage.js';
-import { LaunchParamsPage } from '@/pages/LaunchParamsPage.js';
-import { ThemeParamsPage } from '@/pages/ThemeParamsPage.js';
-import { TonConnectPage } from '@/pages/TonConnectPage/TonConnectPage.js';
+import { IndexPage } from "@/pages/IndexPage/IndexPage.js";
+import { InitDataPage } from "@/pages/InitDataPage/InitDataPage.js";
+import { LaunchParamsPage } from "@/pages/LaunchParamsPage.js";
+import { ThemeParamsPage } from "@/pages/ThemeParamsPage.js";
+import { TonConnectPage } from "@/pages/TonConnectPage/TonConnectPage.js";
+import CatalogPage from "@/pages/CatalogPage.jsx";
 
 interface Route {
   path: string;
@@ -14,14 +15,18 @@ interface Route {
 }
 
 export const routes: Route[] = [
-  { path: '/', Component: IndexPage },
-  { path: '/init-data', Component: InitDataPage, title: 'Init Data' },
-  { path: '/theme-params', Component: ThemeParamsPage, title: 'Theme Params' },
-  { path: '/launch-params', Component: LaunchParamsPage, title: 'Launch Params' },
+  { path: "/", Component: IndexPage },
+  { path: "/init-data", Component: InitDataPage, title: "Init Data" },
+  { path: "/theme-params", Component: ThemeParamsPage, title: "Theme Params" },
   {
-    path: '/ton-connect',
+    path: "/launch-params",
+    Component: LaunchParamsPage,
+    title: "Launch Params",
+  },
+  {
+    path: "/ton-connect",
     Component: TonConnectPage,
-    title: 'TON Connect',
+    title: "TON Connect",
     Icon: () => (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -41,4 +46,5 @@ export const routes: Route[] = [
       </svg>
     ),
   },
+  { path: "/catalog", Component: CatalogPage, title: "Catalog Page" },
 ];
