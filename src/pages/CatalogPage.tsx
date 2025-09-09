@@ -4,7 +4,7 @@ import { catalog } from "@/data/catalog.js";
 
 export default function CatalogPage() {
   const [visibleCount, setVisibleCount] = createSignal(2);
-  let sentinel: HTMLDivElement;
+  let sentinel!: HTMLDivElement;
 
   onMount(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -20,8 +20,8 @@ export default function CatalogPage() {
 
   return (
     <div class="catalog-page">
-      {catalog.slice(0, visibleCount()).map((item, index) => (
-        <FigureCard key={index} image={item.image} text={item.text} />
+      {catalog.slice(0, visibleCount()).map((item) => (
+        <FigureCard image={item.image} text={item.text} />
       ))}
 
       <div ref={sentinel} class="sentinel" />
