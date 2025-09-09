@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
-import tsconfigPaths from 'vite-tsconfig-paths';
-import mkcert from 'vite-plugin-mkcert';
+import { defineConfig } from "vite";
+import solidPlugin from "vite-plugin-solid";
+import tsconfigPaths from "vite-tsconfig-paths";
+import mkcert from "vite-plugin-mkcert";
 
 export default defineConfig({
-  base: '/solidjs-template',
+  base: "/",
   plugins: [
     // Uncomment the following line to enable solid-devtools.
     // For more info see https://github.com/thetarnav/solid-devtools/tree/main/packages/extension#readme
@@ -19,9 +19,9 @@ export default defineConfig({
     process.env.HTTPS && mkcert(),
   ],
   build: {
-    target: 'esnext',
+    target: "esnext",
   },
-  publicDir: './public',
+  publicDir: "./public",
   server: {
     // Exposes your dev server and makes it accessible for the devices in the same network.
     host: true,
