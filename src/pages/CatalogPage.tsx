@@ -1,6 +1,7 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
 import FigureCard from "@/components/FigureCard.jsx";
 import { catalog } from "@/data/catalog.js";
+import Navbar from "@/components/Navbar.jsx";
 
 export default function CatalogPage() {
   const [visibleCount, setVisibleCount] = createSignal(2);
@@ -19,12 +20,15 @@ export default function CatalogPage() {
   });
 
   return (
-    <div class="catalog-page">
-      {catalog.slice(0, visibleCount()).map((item) => (
-        <FigureCard image={item.image} text={item.text} />
-      ))}
+    <div>
+      <Navbar title="catalog" />
+      <div class="catalog-page">
+        {catalog.slice(0, visibleCount()).map((item) => (
+          <FigureCard image={item.image} text={item.text} />
+        ))}
 
-      <div ref={sentinel} class="sentinel" />
+        <div ref={sentinel} class="sentinel" />
+      </div>
     </div>
   );
 }
