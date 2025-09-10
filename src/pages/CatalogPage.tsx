@@ -21,7 +21,7 @@ export default function CatalogPage() {
 
   return (
     <div>
-      <Navbar title="catalog" />
+      <Navbar />
       <div class="catalog-page">
         {catalog.slice(0, visibleCount()).map((item) => (
           <FigureCard image={item.image} text={item.text} />
