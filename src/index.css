@@ -187,8 +187,10 @@ body {
   height: 50px;
   background-color: rgb(134, 149, 127);
   position: fixed;
-  top: 0;
+  top: 50px;
   z-index: 10;
+
+
   
 
 }
@@ -207,7 +209,7 @@ body {
 #menu-toggle{
   display: block;
   position: fixed;
-  top: 16px;
+  top: 66px;
   right: 16px;
   
   z-index: 1;
