@@ -271,7 +271,7 @@ body {
 }
 
 
-#menu-toggle input:checked ~ span
+#navbar-check:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
@@ -279,30 +279,33 @@ body {
 }
 
 
-#menu-toggle input:checked ~ span:nth-last-child(3)
+#navbar-check:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 
-#menu-toggle input:checked ~ span:nth-last-child(2)
+#navbar-check:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
-#menu-toggle::focus,
-#menu-toggle::checked,
-#menu-toggle::checked::after,
-#menu-toggle:visited,
-#menu-toggle:focus-visible,
-#menu-toggle:focus-within{
+#navbar-check:focus,
+#navbar-check:checked,
+#navbar-check:checked::after,
+#navbar-check:visited,
+#navbar-check:focus-visible,
+#navbar-check:focus-within{
   outline: none;
   border-width: 0px;
   box-shadow: none;
   text-shadow: none;
   border-style: none;
   background-color: #ffffff00;
+   outline: none;
+  -webkit-tap-highlight-color: transparent; 
 }
+
 
 
 
@@ -333,7 +336,7 @@ body {
 }
 
 
-#menu-toggle input:checked ~ ul
+#navbar-check:checked ~ ul
 {
   transform: none;
 }
