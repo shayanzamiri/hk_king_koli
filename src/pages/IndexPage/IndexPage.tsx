@@ -5,7 +5,6 @@ import { Link } from "@/components/Link/Link.js";
 import { Page } from "@/components/Page/Page.js";
 import { routes } from "@/navigation/routes.js";
 
-import "./IndexPage.css";
 import LazyNavbar from "@/components/wrapper/LazyNavbar.jsx";
 
 export const IndexPage: Component = () => {
