@@ -6,12 +6,12 @@ import { Page } from "@/components/Page/Page.js";
 import { routes } from "@/navigation/routes.js";
 
 import "./IndexPage.css";
-import Navbar from "@/components/Navbar.jsx";
+import LazyNavbar from "@/components/wrapper/LazyNavbar.jsx";
 
 export const IndexPage: Component = () => {
   return (
     <Page title="Home Page" back={false}>
-      <Navbar />
+      <LazyNavbar />
       <p>
         This page is a home page in this boilerplate. You can use the links
         below to visit other pages with their own functionality.

@@ -8,40 +8,27 @@ export default function Navbar() {
   };
 
   return (
-    <nav class="Navbar">
-      <div class="navbar-container">
-        <h1 class="navbar-container-title">{titles[location.pathname]}</h1>
-      </div>
-
+    <nav class="Navbar" role="navigation">
+      <h1 class="navbar-title">
+        {titles[location.pathname] ?? "Default Title"}
+      </h1>
       <div id="menu-toggle">
-        <input type="checkbox" id="navbar-check-input" />
+        <input type="checkbox" id="navbar-check" />
+
         <span></span>
         <span></span>
         <span></span>
-        <ul class="navbar-menu">
-          <li class="navbar-menu-item">
-            <a href="/catalog" class="navbar-menu-item-anchor">
-              اولین بار
+
+        <ul id="menu" class="navbar-toggle-menu">
+          <li class="navbar-toggle-menu-item">
+            <a href="/" class="navbar-toggle-menu-item-anchor">
+              <label for="navbar-check">Home</label>
             </a>
           </li>
-          <li class="navbar-menu-item">
-            <a href="" class="navbar-menu-item-anchor">
-              ساختمان
+          <li class="navbar-toggle-menu-item">
+            <a href="/catalog" class="navbar-toggle-menu-item-anchor">
+              <label for="navbar-check">About</label>
             </a>
-          </li>
-          <li class="navbar-menu-item">
-            <a href="" class="navbar-menu-item-anchor">
-              کارتل
-            </a>
-          </li>
-          <li class="navbar-menu-item">
-            <a href="" class="navbar-menu-item-anchor"></a>
-          </li>
-          <li class="navbar-menu-item">
-            <a href="" class="navbar-menu-item-anchor"></a>
-          </li>
-          <li class="navbar-menu-item">
-            <a href="" class="navbar-menu-item-anchor"></a>
           </li>
         </ul>
       </div>
