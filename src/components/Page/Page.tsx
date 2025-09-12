@@ -9,7 +9,6 @@ import { backButton } from '@telegram-apps/sdk-solid';
 
 import { useNavigate } from '@solidjs/router';
 
-import './Page.css';
 
 export interface PageProps extends ParentProps {
   title: string;
