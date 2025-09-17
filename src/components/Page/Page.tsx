@@ -4,11 +4,10 @@ import {
   createMemo,
   type JSX,
   type ParentProps,
-} from 'solid-js';
-import { backButton } from '@telegram-apps/sdk-solid';
+} from "solid-js";
+import { backButton } from "@telegram-apps/sdk-solid";
 
-import { useNavigate } from '@solidjs/router';
-
+import { useNavigate } from "@solidjs/router";
 
 export interface PageProps extends ParentProps {
   title: string;
@@ -22,7 +21,9 @@ export interface PageProps extends ParentProps {
 
 export const Page: Component<PageProps> = (props) => {
   const navigate = useNavigate();
-  const back = createMemo(() => typeof props.back === 'boolean' ? props.back : true);
+  const back = createMemo(() =>
+    typeof props.back === "boolean" ? props.back : true
+  );
 
   createEffect(() => {
     if (back()) {
@@ -36,8 +37,10 @@ export const Page: Component<PageProps> = (props) => {
 
   return (
     <div class="page">
-      <h1>{props.title}</h1>
-      {props.disclaimer && <div class="page__disclaimer">{props.disclaimer}</div>}
+      <h1 class="page-title">{props.title}</h1>
+      {props.disclaimer && (
+        <div class="page__disclaimer">{props.disclaimer}</div>
+      )}
       {props.children}
     </div>
   );

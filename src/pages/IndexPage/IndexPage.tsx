@@ -10,12 +10,9 @@ import LazyNavbar from "@/components/wrapper/LazyNavbar.jsx";
 export const IndexPage: Component = () => {
   return (
     <div class="index">
-      <Page title="Home Page" back={true}>
+      <Page title="COCO KING" back={true}>
         <LazyNavbar />
-        <p>
-          This page is a home page in this boilerplate. You can use the links
-          below to visit other pages with their own functionality.
-        </p>
+        <p class="index-about">آموزش فارسی تمام مکانیزم های بازی همستر کینگ</p>
         <ul class="index-page__links">
           <For each={routes}>
             {(route) => (

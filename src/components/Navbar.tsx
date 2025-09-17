@@ -1,16 +1,14 @@
-import { useLocation } from "@solidjs/router";
+import { useLocation, A } from "@solidjs/router";
+import { routes } from "@/navigation/routes.js";
 
 export default function Navbar() {
   const location = useLocation();
-  const titles: Record<string, string> = {
-    "/": "bah bah",
-    "/catalog": "harchi",
-  };
 
   return (
     <nav class="Navbar" role="navigation">
       <h1 class="navbar-title">
-        {titles[location.pathname] ?? "Default Title"}
+        {routes.find((r) => r.path === location.pathname)?.title ??
+          "welcome to coco king"}
       </h1>
       <div id="menu-toggle">
         <input type="checkbox" id="navbar-check" />
@@ -20,16 +18,21 @@ export default function Navbar() {
         <span></span>
 
         <ul id="menu" class="navbar-toggle-menu">
-          <li class="navbar-toggle-menu-item">
-            <a href="/" class="navbar-toggle-menu-item-anchor">
-              <label for="navbar-check">Home</label>
-            </a>
-          </li>
-          <li class="navbar-toggle-menu-item">
-            <a href="/catalog" class="navbar-toggle-menu-item-anchor">
-              <label for="navbar-check">About</label>
-            </a>
-          </li>
+          {routes
+            .filter((r) => r.title)
+            .map((route) => (
+              <li class="navbar-toggle-menu-item">
+                <A href={route.path} class="navbar-toggle-menu-item-anchor">
+                  <label
+                    for="navbar-check"
+                    class="navbar-toggle-menu-item-anchor-label"
+                  >
+                    {route.Icon && <route.Icon />}
+                    {route.title}
+                  </label>
+                </A>
+              </li>
+            ))}
         </ul>
       </div>
     </nav>
