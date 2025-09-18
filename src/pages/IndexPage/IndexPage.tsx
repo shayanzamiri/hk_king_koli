@@ -13,12 +13,12 @@ export const IndexPage: Component = () => {
       <Page title="COCO KING" back={true}>
         <LazyNavbar />
         <p class="index-about">آموزش فارسی تمام مکانیزم های بازی همستر کینگ</p>
-        <ul class="index-page__links">
+        <ul class="index-links">
           <For each={routes}>
             {(route) => (
-              <Show when={route.title}>
-                <li class="index-page__link-item">
-                  <Link class="index-page__link" href={route.path}>
+              <Show when={route.title && route.path !== "/"}>
+                <li class="index-links-item">
+                  <Link class="index-links-item-anchor" href={route.path}>
                     <Show when={route.Icon}>
                       {(Icon) => (
                         <i class="index-page__link-icon">
