@@ -2,7 +2,7 @@
 // import { LaunchParamsPage } from "@/pages/LaunchParamsPage.js";
 // import { ThemeParamsPage } from "@/pages/ThemeParamsPage.js";
 // import { TonConnectPage } from "@/pages/TonConnectPage/TonConnectPage.js";
-import type { Component } from "solid-js";
+import type { Component, JSX } from "solid-js";
 
 import { IndexPage } from "@/pages/IndexPage/IndexPage.js";
 import CatalogPage from "@/pages/CatalogPage.jsx";
@@ -10,20 +10,25 @@ import { catalogs } from "@/data/catalog.js";
 
 interface Route {
   path: string;
-  Component: Component;
+  Component: Component | (() => JSX.Element);
   title?: string;
   Icon?: Component;
 }
 
+const makeCatalogRoute = (key: keyof typeof catalogs) => {
+  const catalog = catalogs[key];
+  return {
+    path: `/${key}`,
+    Component: () => <CatalogPage data={catalog.data} title={catalog.title} />,
+    title: catalog.title,
+  };
+};
+
 export const routes: Route[] = [
   { path: "/", Component: IndexPage, title: "index page" },
-  {
-    path: "/first",
-    Component: () => (
-      <CatalogPage data={catalogs.first.data} title={catalogs.first.title} />
-    ),
-    title: "first things",
-  },
+  ...Object.keys(catalogs).map((key) =>
+    makeCatalogRoute(key as keyof typeof catalogs)
+  ),
 ];
 
 // { path: "/init-data", Component: InitDataPage, title: "Init Data" },
