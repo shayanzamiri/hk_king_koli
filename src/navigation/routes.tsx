@@ -15,20 +15,32 @@ interface Route {
   Icon?: Component;
 }
 
-const makeCatalogRoute = (key: keyof typeof catalogs) => {
+const keys = Object.keys(catalogs) as (keyof typeof catalogs)[];
+
+const makeCatalogRoute = (key: keyof typeof catalogs, index: number) => {
   const catalog = catalogs[key];
+  const prev = index > 0 ? `/${keys[index - 1]}` : null;
+  const next = index < keys.length - 1 ? `/${keys[index + 1]}` : null;
+
+  console.log("route:", key, "index:", index, "prev:", prev, "next:", next);
+
   return {
     path: `/${key}`,
-    Component: () => <CatalogPage data={catalog.data} title={catalog.title} />,
+    Component: () => (
+      <CatalogPage
+        data={catalog.data}
+        title={catalog.title}
+        prevPage={prev}
+        nextPage={next}
+      />
+    ),
     title: catalog.title,
   };
 };
 
 export const routes: Route[] = [
   { path: "/", Component: IndexPage, title: "index page" },
-  ...Object.keys(catalogs).map((key) =>
-    makeCatalogRoute(key as keyof typeof catalogs)
-  ),
+  ...keys.map((key, index) => makeCatalogRoute(key, index)),
 ];
 
 // { path: "/init-data", Component: InitDataPage, title: "Init Data" },

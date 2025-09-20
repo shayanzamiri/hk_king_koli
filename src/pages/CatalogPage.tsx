@@ -1,10 +1,13 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
 import FigureCard from "@/components/FigureCard.jsx";
 import LazyNavbar from "@/components/wrapper/LazyNavbar.jsx";
+import { Link } from "@/components/Link/Link.jsx";
 
 export default function CatalogPage(props: {
   title: string;
   data: { image: string; text: string }[];
+  nextPage?: string | null;
+  prevPage?: string | null;
 }) {
   const [visibleCount, setVisibleCount] = createSignal(2);
   let sentinel!: HTMLDivElement;
@@ -31,6 +34,18 @@ export default function CatalogPage(props: {
         ))}
 
         <div ref={sentinel} class="sentinel" />
+        <div class="catalog-page-nav">
+          {props.prevPage && (
+            <a class="catalog-page-nav-button" href={props.prevPage}>
+              صفحه قبلی
+            </a>
+          )}
+          {props.nextPage && (
+            <a class="catalog-page-nav-button" href={props.nextPage}>
+              صفحه بعدی
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
