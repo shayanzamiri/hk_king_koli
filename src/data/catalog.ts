@@ -1,144 +1,163 @@
 export const catalogs = {
   first: {
-    title: "اولین چیزها",
+    nav: "City Selection",
+    title: "انتخاب اولین شهر",
     data: [
       {
-        image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        image: "/images/first/first_1.jpg",
+        text: "",
       },
       {
-        image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        image: "/images/first/first_2.jpg",
+        text: "",
+      },
+      {
+        image: "/images/first/first_3.jpg",
+        text: "",
+      },
+      {
+        image: "/images/first/first_4.jpg",
+        text: "",
       },
     ],
   },
   exploration: {
-    title: "گشت و گزار داخل ساختنمانها",
+    nav: "Exploration",
+    title: "شناسایی کلیات",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
   research: {
-    title: "کاوشها",
+    nav: "Types of Research",
+    title: "انواع کاوش",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
+      },
+    ],
+  },
+  tiers: {
+    nav: "Tiers",
+    title: "رده بندی ها",
+    data: [
+      {
+        image: "/images/1_1.jpg",
+        text: "",
+      },
+      {
+        image: "/images/1_1.jpg",
+        text: "",
       },
     ],
   },
   Renovation: {
+    nav: "Building Renovation",
     title: "ارتقا ساختمان",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
-  newbuilding: {
+  NewBuildings: {
+    nav: "Access to New Buildings",
     title: "ساختمان جدید",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
   Resources: {
+    nav: "Resources",
     title: "منابع",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
-  specialBuilding: {
-    title: "ساختمانهای ویژه",
+  Investment: {
+    nav: "Special Building [Investment]",
+    title: "ساختمان ویژه",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
-  influence: {
+  Influence: {
+    nav: "Influence Points",
     title: "نفوذ",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
-  cartels: {
-    title: "کارتل ها",
-    data: [
-      {
-        image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
-      },
-      {
-        image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
-      },
-    ],
-  },
-  combatHamsters: {
+  CombatCartels: {
+    nav: "Combat Cartels",
     title: "همسترهای جنگی",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },
   Base: {
+    nav: "First things",
     title: "مرکز",
     data: [
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
       {
         image: "/images/1_1.jpg",
-        text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان ",
+        text: "",
       },
     ],
   },

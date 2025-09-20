@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <nav class="Navbar" role="navigation">
       <h1 class="navbar-title">
-        {routes.find((r) => r.path === location.pathname)?.title ??
-          "welcome to coco king"}
+        {routes.find((r) => r.path === location.pathname)?.nav ??
+          "WELCOME TO COCO KING"}
       </h1>
       <div id="menu-toggle">
         <input type="checkbox" id="navbar-check" />

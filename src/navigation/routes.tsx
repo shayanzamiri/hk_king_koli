@@ -11,6 +11,7 @@ import { catalogs } from "@/data/catalog.js";
 interface Route {
   path: string;
   Component: Component | (() => JSX.Element);
+  nav?: string;
   title?: string;
   Icon?: Component;
 }
@@ -22,7 +23,7 @@ const makeCatalogRoute = (key: keyof typeof catalogs, index: number) => {
   const prev = index > 0 ? `/${keys[index - 1]}` : null;
   const next = index < keys.length - 1 ? `/${keys[index + 1]}` : null;
 
-  console.log("route:", key, "index:", index, "prev:", prev, "next:", next);
+  // console.log("route:", key, "index:", index, "prev:", prev, "next:", next);
 
   return {
     path: `/${key}`,
@@ -30,16 +31,18 @@ const makeCatalogRoute = (key: keyof typeof catalogs, index: number) => {
       <CatalogPage
         data={catalog.data}
         title={catalog.title}
+        nav={catalog.nav}
         prevPage={prev}
         nextPage={next}
       />
     ),
     title: catalog.title,
+    nav: catalog.nav,
   };
 };
 
 export const routes: Route[] = [
-  { path: "/", Component: IndexPage, title: "index page" },
+  { path: "/", Component: IndexPage, title: "خانه" },
   ...keys.map((key, index) => makeCatalogRoute(key, index)),
 ];
 

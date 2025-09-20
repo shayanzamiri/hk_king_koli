@@ -5,6 +5,7 @@ import { Link } from "@/components/Link/Link.jsx";
 
 export default function CatalogPage(props: {
   title: string;
+  nav: string;
   data: { image: string; text: string }[];
   nextPage?: string | null;
   prevPage?: string | null;
