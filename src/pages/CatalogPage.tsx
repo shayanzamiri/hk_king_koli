@@ -1,7 +1,6 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
 import FigureCard from "@/components/FigureCard.jsx";
 import LazyNavbar from "@/components/wrapper/LazyNavbar.jsx";
-import { Link } from "@/components/Link/Link.jsx";
 
 export default function CatalogPage(props: {
   title: string;
