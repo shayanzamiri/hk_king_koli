@@ -1,6 +1,7 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
 import FigureCard from "@/components/FigureCard.jsx";
 import LazyNavbar from "@/components/wrapper/LazyNavbar.jsx";
+import { Link } from "@/components/Link/Link.jsx";
 
 export default function CatalogPage(props: {
   title: string;
@@ -35,14 +36,14 @@ export default function CatalogPage(props: {
         <div ref={sentinel} class="sentinel" />
         <div class="catalog-page-nav">
           {props.prevPage && (
-            <a class="catalog-page-nav-button" href={props.prevPage}>
+            <Link class="catalog-page-nav-button" href={props.prevPage}>
               صفحه قبلی
-            </a>
+            </Link>
           )}
           {props.nextPage && (
-            <a class="catalog-page-nav-button" href={props.nextPage}>
+            <Link class="catalog-page-nav-button" href={props.nextPage}>
               صفحه بعدی
-            </a>
+            </Link>
           )}
         </div>
       </div>
