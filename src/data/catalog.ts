@@ -4,7 +4,7 @@ export const catalogs = {
     title: "انتخاب اولین شهر",
     data: [
       {
-        image: "/images/first/first_1.jpg",
+        image: "/images/1_first/first_1.jpg",
         text: `انتخاب یک شهر برای پایگاه تنها نقطه شروع اکتشاف است.
 
 شما ممکن است به مناطق محبوب تمایل بیشتری داشته باشید اما رقابت در فعالیت‌های رقابتی که بعدا در آنجا بوجود می آید به طور قابل توجهی بیشتر خواهد بود.
@@ -13,15 +13,15 @@ export const catalogs = {
 `,
       },
       {
-        image: "/images/first/first_2.jpg",
+        image: "/images/1_first/first_2.jpg",
         text: `در این قسمت شما میتوانید از روی نقشه شهر مورد علاقه خود را انتخاب کنید. یا میتوانید بر روی دکمه Other ( سایر ) کلیک کنید.`,
       },
       {
-        image: "/images/first/first_3.jpg",
+        image: "/images/1_first/first_3.jpg",
         text: `زمانی که بر روی دکمه Other  کلیک می کنید در قسمت بالا میتوانید نام شهر مورد علاقه خود را به انگلیسی جستجو کنید و سپس آن را انتخاب کنید. مثلا من Berlin را جستجو کرده و سپس انتخاب می کنم.`,
       },
       {
-        image: "/images/first/first_4.jpg",
+        image: "/images/1_first/first_4.jpg",
         text: `نام شهر مورد نظر خود را در این قسمت مشاهده میکنید. سپس بر روی دکمه تایید کلیک کنید و سپس وارد مرکز فرماندهی ( Base ) بازی خودتون میشوید.`,
       },
     ],
@@ -31,47 +31,47 @@ export const catalogs = {
     title: "شناسایی کلیات",
     data: [
       {
-        image: "/images/exploration/exploration_1.jpg",
+        image: "/images/2_exploration/exploration_1.jpg",
         text: `هر بار بر روی این مستطیل کلیک می کنید یک بار عمل کاوش کردن ( Research ) را انجام میدهید.`,
       },
       {
-        image: "/images/exploration/exploration_2.jpg",
+        image: "/images/2_exploration/exploration_2.jpg",
         text: `به هر کدام از این قسمت هایی که با نارنجی دورش خط کشیدم یک بخش ( Section ) گویند. در هر بخش شما میتوانید کاوش بخصوص به آن بخش را انجام دهید.`,
       },
       {
-        image: "/images/exploration/exploration_3.jpg",
+        image: "/images/2_exploration/exploration_3.jpg",
         text: `به این قسمتی که دورش خط کشیدم یک اتاق ( Room ) گویند و نام این اتاق نیز در بالا سمت چپ آن نوشته شده است. برای مثال نام این اتاق Kitchen ( آشپزخانه ) میباشد.`,
       },
       {
-        image: "/images/exploration/exploration_4.jpg",
+        image: "/images/2_exploration/exploration_4.jpg",
         text: `هر بخش برای کامل شدن باید ۱۵ بار کاوش شود. شما میتوانید ۱۵ بار روی مستطیل کاوش کلیک کنید یا بر روی دکمه ای که سمت راست آن قرار دارد کلیک کنید و سپس کاوش را انجام دهید. در این صورت بازی میزان انرژی لازم برای ۱۵ بار کاوش کردن این بخش را از شما میگیرد و آن را کامل میکند.`,
       },
       {
-        image: "/images/exploration/exploration_5.jpg",
-        text: `این صندوق آبی فهرست موجودی ها ( Inventory ) شما میباشد. روی آن کلیک کنید.`,
+        image: "/images/2_exploration/exploration_5.jpg",
+        text: `این صندوق آبی فهرست موجودی ها ( Inventory ) شما میباشد. ما در اینجا به آن خزانه میگوییم . روی آن کلیک کنید.`,
       },
       {
-        image: "/images/exploration/exploration_6.jpg",
-        text: `در این بخش شما فهرست تمام موجودی های خود را مشاهده میکنید.`,
+        image: "/images/2_exploration/exploration_6.jpg",
+        text: `در این بخش داخل خزانه شما فهرست تمام منابع خود را مشاهده میکنید.`,
       },
       {
-        image: "/images/exploration/exploration_7.jpg",
+        image: "/images/2_exploration/exploration_7.jpg",
         text: `این عدد میزان نفوذ شماست. نفوذ شاخص اصلی قدرت شماست. افزایش آن، فرصت‌های جدید و جوایز ویژه را آزاد می‌کند و شما را قادر می‌سازد تا تمام جهان را تصرف کنید.`,
       },
       {
-        image: "/images/exploration/exploration_8.jpg",
+        image: "/images/2_exploration/exploration_8.jpg",
         text: `این عدد میزان انرژی شما میباشد. البته خود بازی به این بخش Recruit میگوید به معنای تازه سرباز یا کارمند تازه استخدام شده. انگار انرژی را با میزان انرژی که این تعداد همستر تولید میکنند بسنجیم.`,
       },
       {
-        image: "/images/exploration/exploration_9.jpg",
+        image: "/images/2_exploration/exploration_9.jpg",
         text: `نام این قسمت از بازی پول رایج میباشد. نام دیگر آن همستر کولا کپ ( Hamster-Cola Caps ) نیز است اما ما اینجا به آن پول رایج میگوییم. `,
       },
       {
-        image: "/images/exploration/exploration_10.jpg",
+        image: "/images/2_exploration/exploration_10.jpg",
         text: `نام این بخش ابزار ( Tools ) میباشد. نماد مهندسی و سازندگی.`,
       },
       {
-        image: "/images/exploration/exploration_11.jpg",
+        image: "/images/2_exploration/exploration_11.jpg",
         text: `این بخش نیز آجیل ( Nuts ) میباشد نماد غذا. البته در بین کاربران فارسی زبان به بلوط و فندق هم معروف است. ما نیز اینجا به آن بلوط میگوییم.`,
       },
     ],
@@ -81,12 +81,36 @@ export const catalogs = {
     title: "انواع کاوش",
     data: [
       {
-        image: "/images/1_1.jpg",
-        text: ``,
+        image: "/images/3_research/research_1.jpg",
+        text: `در هر اتاق اولین بخش UNLOCK ( باز کردن ) اتاق است. کاوش کردن این بخش به شما اجازه دسترسی به سایر بخشهای داخل اتاق را میدهد و زمانی که آن را کامل کاوش کنید به شما اجازه دسترسی به سایر اتاقهای ساختمان را میدهد.`,
       },
       {
-        image: "/images/1_1.jpg",
-        text: ``,
+        image: "/images/3_research/research_2.jpg",
+        text: `هر کاوش ورودی ها و خروجی هایی دارد.سمت چپ این مثلث زرد ورودیهای و سمت راست آن خروجی ها هستند. اولین کاوش در هر اتاق ( UNLOCK ) ورودی فقط انرژی میگیرد و خروجی به شما پول رایج میدهد. `,
+      },
+      {
+        image: "/images/3_research/research_3.jpg",
+        text: `شما زمانی که یک اتاق را هنوز باز ( UNLOCK ) نکرده اید فقط میتوانید نام و نماد بخشهای موجود داخل آن اتاق و میزان انرژی مورد نیاز برای هر بار کاوش کردن آن را ببینید ولی نمیتوانید آن را کاوش کنید و همچنین ورودی و خروجی های هر کدام از بخش را هم نمیتوانید ببینید.`,
+      },
+      {
+        image: "/images/3_research/research_4.jpg",
+        text: `زمانی که یک بخش ( Section ) را ۱۵ بار کاوش کنید شما آن بخش را کامل کرده اید و یک تیک سبز به نشانه تکمیل در گوشه سمت راست آن برای همیشه قرار میگیرد.`,
+      },
+      {
+        image: "/images/3_research/research_5.jpg",
+        text: `هر کاوش ورودی ها و خروجی هایی دارد.سمت چپ این مثلث زرد ورودیهای و سمت راست آن خروجی ها هستند. اولین کاوش در هر اتاق ( UNLOCK ) ورودی فقط انرژی میگیرد و خروجی به شما پول رایج میدهد. `,
+      },
+      {
+        image: "/images/3_research/research_6.jpg",
+        text: `هر کاوش ورودی ها و خروجی هایی دارد.سمت چپ این مثلث زرد ورودیهای و سمت راست آن خروجی ها هستند. اولین کاوش در هر اتاق ( UNLOCK ) ورودی فقط انرژی میگیرد و خروجی به شما پول رایج میدهد. `,
+      },
+      {
+        image: "/images/3_research/research_2.jpg",
+        text: `هر کاوش ورودی ها و خروجی هایی دارد.سمت چپ این مثلث زرد ورودیهای و سمت راست آن خروجی ها هستند. اولین کاوش در هر اتاق ( UNLOCK ) ورودی فقط انرژی میگیرد و خروجی به شما پول رایج میدهد. `,
+      },
+      {
+        image: "/images/3_research/research_2.jpg",
+        text: `هر کاوش ورودی ها و خروجی هایی دارد.سمت چپ این مثلث زرد ورودیهای و سمت راست آن خروجی ها هستند. اولین کاوش در هر اتاق ( UNLOCK ) ورودی فقط انرژی میگیرد و خروجی به شما پول رایج میدهد. `,
       },
     ],
   },
