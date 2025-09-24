@@ -70,6 +70,10 @@ export const catalogs = {
         image: "/images/2_exploration/exploration_10.jpg",
         text: `نام این بخش ابزار ( Tools ) میباشد. نماد مهندسی و سازندگی.`,
       },
+      {
+        image: "/images/2_exploration/exploration_11.jpg",
+        text: `نماد غذاست`,
+      },
     ],
   },
   Research: {
@@ -253,12 +257,10 @@ export const catalogs = {
         image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها از بیرون`,
       },
-      ,
       {
         image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها از بیرون`,
       },
-      ,
       {
         image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها از بیرون`,
