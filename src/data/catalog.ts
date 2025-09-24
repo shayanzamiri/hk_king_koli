@@ -170,19 +170,19 @@ export const catalogs = {
     data: [
       {
         image: "/images/5_cartels/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/5_cartels/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/5_cartels/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/5_cartels/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -192,7 +192,7 @@ export const catalogs = {
     data: [
       {
         image: "/images/6_combat_system/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -271,7 +271,7 @@ export const catalogs = {
     data: [
       {
         image: "/images/8_building_renovation/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -281,11 +281,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/9_resources/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/9_resources/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -295,11 +295,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/10_hamster_base/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/10_hamster_base/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -309,11 +309,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/11_investment/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/11_investment/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -323,11 +323,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/12_passive_income/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/12_passive_income/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -337,11 +337,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/13_rumors/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/13_rumors/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -351,11 +351,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/14_bussiness/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/14_bussiness/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -365,11 +365,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/15_pit/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/15_pit/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -379,11 +379,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/16_boss/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/16_boss/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -393,11 +393,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/17_clan/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/17_clan/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -407,11 +407,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/18_shop/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/18_shop/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -421,11 +421,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/19_head_office/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/19_head_office/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -435,11 +435,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/20_strategy_resources/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/20_strategy_resources/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -449,11 +449,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/21_strategy_cartels/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/21_strategy_cartels/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -463,11 +463,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/22_strategy_pit/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/22_strategy_pit/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -477,11 +477,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/23_strategy_gem_guild_gold/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/23_strategy_gem_guild_gold/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
@@ -491,11 +491,11 @@ export const catalogs = {
     data: [
       {
         image: "/images/24_gift_pack/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
       {
         image: "/images/24_gift_pack/research_8.jpg",
-        text: ``,
+        text: `نام این بخش`,
       },
     ],
   },
