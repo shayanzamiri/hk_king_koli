@@ -322,11 +322,11 @@ export const catalogs = {
     title: "درآمد ساعتی",
     data: [
       {
-        image: "/images/12_passive_income",
+        image: "/images/12_passive_income/",
         text: ``,
       },
       {
-        image: "/images/12_passive_income",
+        image: "/images/12_passive_income/",
         text: ``,
       },
     ],
