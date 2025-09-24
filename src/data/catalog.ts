@@ -127,39 +127,39 @@ export const catalogs = {
     title: "دسترسی به ساختمانهای جدید",
     data: [
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `شما در این بخش میتوانید ظرفیت کل ساختمانهایی که میتواند کاوش کنید را مشاهده کنید. ما در این راهنما به این عدد میگوییم ظرفیت ساختمانها. ظرفیت ساختمانها را میتوانید با روشهایی که پایین تر خدمتتون توضیح میدم افزایش دهید. در سمت چپ آن تعداد مجموع ساختمان هایی که تا الان کاوش کردید را مشاهده میکنید. شما میتوانید اگر ظرفیت ساختمان دارید با انتخاب یک ساختمان جدید در یکی از منطقه های یکی از شهرهایتان و تایید کاوش آنرا کاوش کنید.`,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `یکی از راه ها برای افزایش ظرفیت ساختمانها این هست که در مرکز وارد این ساختمان بشید. این ساختمان مرکز گسترش امکان ساخت و ساز کلی بازی شماست که ما در این راهنما به آن میگوییم `,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `این بخش از ساختمان فلان را هر بار که ارتقا بدید یک ساختمان به ظرفیت ساختمانهای شما اضافه می کند`,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `یکی دیگه از راه های افضایش ظرفیت ساختمانها در این ساختمان شما قرار دارد. این ساختمان برای کنترل بخشهای مربوط به پبت ها (Pit) هستند که در بخش پیت از منو میتوانید کامل راجب آنها مطالعه کنید `,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `این بخشها را هر چند باری که ارتقا دهید به شما میگوید که ارتقای بعدی ۵ عدد به ظرفیت ساختمانهای شما اضافه میکند.`,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `این بخشها را هر چند باری که ارتقا دهید به شما میگوید که ارتقای بعدی ۵ عدد به ظرفیت ساختمانهای شما اضافه میکند.`,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `این بخشها را هر چند باری که ارتقا دهید به شما میگوید که ارتقای بعدی ۵ عدد به ظرفیت ساختمانهای شما اضافه میکند.`,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `این ساختمان مربوط به رویدادهای بازی میباشد. برای ارتقای بعضی از قابلیت ها به بخش رویدادها از منو مراجعه کنید. در آن قسمت هر رویدادی که درحال حاظر در حال انجام است را میتوانید به طور کامل مطالعه کنید.`,
       },
       {
-        image: "/images/4_access_new_buildings/",
+        image: "/images/4_access_new_buildings/research_8.jpg",
         text: `برای مثال این رویداد با هر بار ارتقا به شما ۱ عدد ظرفیت ساختمان میدهد.`,
       },
     ],
@@ -169,19 +169,19 @@ export const catalogs = {
     title: "کارتل ها",
     data: [
       {
-        image: "/images/5_cartels/",
+        image: "/images/5_cartels/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/5_cartels/",
+        image: "/images/5_cartels/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/5_cartels/",
+        image: "/images/5_cartels/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/5_cartels/",
+        image: "/images/5_cartels/research_8.jpg",
         text: ``,
       },
     ],
@@ -191,7 +191,7 @@ export const catalogs = {
     title: "سیستم جنگ ها",
     data: [
       {
-        image: "/images/6_combat_system/",
+        image: "/images/6_combat_system/research_8.jpg",
         text: ``,
       },
     ],
@@ -201,11 +201,11 @@ export const catalogs = {
     title: "رده بندی ها",
     data: [
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در این بازی ما کلا تمام رده بندی هایی که داریم هم با استفاده از عدد و هم رنگ مشخص میشود. همیشه سطح ۱ با رنگ سفید و سطح ۲ با رنگ سبز و سطح ۳ با رنگ آبی و سطح ۴ با رنگ بنفش و سطح ۵ با رنگ نارنجی نشان داده میشود. `,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `هر کدام از این سطح ها اسم هم دارند. 
         سطح ۱ به نام معمولی ( common )
         و سطح ۲ به اسم غیر معمولی ( uncommon ) 
@@ -214,53 +214,53 @@ export const catalogs = {
         و سطح ۵ به اسم خدا ( god )`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `این سطح بندی در ساختمانها اندکی متفاوت میباشد به این دلیل که بین سطح ۴ و ۵ یک سطح ۴ پلاس نیز وجود دارد. همچنین بعد از سطح ۵ نیز یک سطح ۵ پلاس نیز وجود دارد`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `سطح بندی در بین آیتم های فروشگاه نیز بر اساس همین سطح بندی با نشان دادن رنگها و نوشتن اسم آنها مشخص شده است`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `منابع`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در بیزنس ها`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در بیزنس ها`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در کارتلها`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در کارتلها`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در فروشگاه`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها`,
       },
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها از بیرون`,
       },
       ,
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها از بیرون`,
       },
       ,
       {
-        image: "/images/7_tiers/",
+        image: "/images/7_tiers/research_8.jpg",
         text: `در ساختمان ها از بیرون`,
       },
     ],
@@ -270,7 +270,7 @@ export const catalogs = {
     title: "ارتقا ساختمان",
     data: [
       {
-        image: "/images/8_building_renovation/",
+        image: "/images/8_building_renovation/research_8.jpg",
         text: ``,
       },
     ],
@@ -280,11 +280,11 @@ export const catalogs = {
     title: "منابع",
     data: [
       {
-        image: "/images/9_resources/",
+        image: "/images/9_resources/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/9_resources/",
+        image: "/images/9_resources/research_8.jpg",
         text: ``,
       },
     ],
@@ -294,11 +294,11 @@ export const catalogs = {
     title: "مرکز",
     data: [
       {
-        image: "/images/10_hamster_base/",
+        image: "/images/10_hamster_base/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/10_hamster_base/",
+        image: "/images/10_hamster_base/research_8.jpg",
         text: ``,
       },
     ],
@@ -308,11 +308,11 @@ export const catalogs = {
     title: "ساختمانهای ویژه {سرمایه گزاری}",
     data: [
       {
-        image: "/images/11_investment/",
+        image: "/images/11_investment/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/11_investment/",
+        image: "/images/11_investment/research_8.jpg",
         text: ``,
       },
     ],
@@ -322,11 +322,11 @@ export const catalogs = {
     title: "درآمد ساعتی",
     data: [
       {
-        image: "/images/12_passive_income/",
+        image: "/images/12_passive_income/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/12_passive_income/",
+        image: "/images/12_passive_income/research_8.jpg",
         text: ``,
       },
     ],
@@ -336,11 +336,11 @@ export const catalogs = {
     title: "شایعات",
     data: [
       {
-        image: "/images/13_rumors/",
+        image: "/images/13_rumors/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/13_rumors/",
+        image: "/images/13_rumors/research_8.jpg",
         text: ``,
       },
     ],
@@ -350,11 +350,11 @@ export const catalogs = {
     title: "بیزینس ها- کسب و کارها",
     data: [
       {
-        image: "/images/14_bussiness/",
+        image: "/images/14_bussiness/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/14_bussiness/",
+        image: "/images/14_bussiness/research_8.jpg",
         text: ``,
       },
     ],
@@ -364,11 +364,11 @@ export const catalogs = {
     title: "پیت ها",
     data: [
       {
-        image: "/images/15_pit/",
+        image: "/images/15_pit/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/15_pit/",
+        image: "/images/15_pit/research_8.jpg",
         text: ``,
       },
     ],
@@ -378,11 +378,11 @@ export const catalogs = {
     title: "رئیس",
     data: [
       {
-        image: "/images/16_boss/",
+        image: "/images/16_boss/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/16_boss/",
+        image: "/images/16_boss/research_8.jpg",
         text: ``,
       },
     ],
@@ -392,11 +392,11 @@ export const catalogs = {
     title: "کلن",
     data: [
       {
-        image: "/images/17_clan/",
+        image: "/images/17_clan/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/17_clan/",
+        image: "/images/17_clan/research_8.jpg",
         text: ``,
       },
     ],
@@ -406,11 +406,11 @@ export const catalogs = {
     title: "فروشگاه ها",
     data: [
       {
-        image: "/images/18_shop/",
+        image: "/images/18_shop/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/18_shop/",
+        image: "/images/18_shop/research_8.jpg",
         text: ``,
       },
     ],
@@ -420,11 +420,11 @@ export const catalogs = {
     title: "دفتر مرکزی",
     data: [
       {
-        image: "/images/19_head_office/",
+        image: "/images/19_head_office/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/19_head_office/",
+        image: "/images/19_head_office/research_8.jpg",
         text: ``,
       },
     ],
@@ -434,11 +434,11 @@ export const catalogs = {
     title: "استراتژی منابع",
     data: [
       {
-        image: "/images/20_strategy_resources/",
+        image: "/images/20_strategy_resources/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/20_strategy_resources/",
+        image: "/images/20_strategy_resources/research_8.jpg",
         text: ``,
       },
     ],
@@ -448,11 +448,11 @@ export const catalogs = {
     title: "استراتژی کارتل ها",
     data: [
       {
-        image: "/images/21_strategy_cartels/",
+        image: "/images/21_strategy_cartels/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/21_strategy_cartels/",
+        image: "/images/21_strategy_cartels/research_8.jpg",
         text: ``,
       },
     ],
@@ -462,11 +462,11 @@ export const catalogs = {
     title: "استراتژی پبت",
     data: [
       {
-        image: "/images/22_strategy_pit/",
+        image: "/images/22_strategy_pit/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/22_strategy_pit/",
+        image: "/images/22_strategy_pit/research_8.jpg",
         text: ``,
       },
     ],
@@ -476,11 +476,11 @@ export const catalogs = {
     title: "استراتژی الماس ها و گیلد گلد",
     data: [
       {
-        image: "/images/23_strategy_gem_guild_gold/",
+        image: "/images/23_strategy_gem_guild_gold/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/23_strategy_gem_guild_gold/",
+        image: "/images/23_strategy_gem_guild_gold/research_8.jpg",
         text: ``,
       },
     ],
@@ -490,11 +490,11 @@ export const catalogs = {
     title: "بسته های هدیه",
     data: [
       {
-        image: "/images/24_gift_pack/",
+        image: "/images/24_gift_pack/research_8.jpg",
         text: ``,
       },
       {
-        image: "/images/24_gift_pack/",
+        image: "/images/24_gift_pack/research_8.jpg",
         text: ``,
       },
     ],
